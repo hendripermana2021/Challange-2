@@ -1,0 +1,798 @@
+body{
+    box-sizing: content-box;
+}
+
+.img-fluid{
+    width: 650px;
+    height: 450px;
+}
+
+.bgboxbiru{
+    height: 330px;
+    width: auto;
+    margin-top: 200px;
+    border-top-left-radius: 100px;
+    background-color: #0D28A6;
+    margin-right: -80px;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.judul {
+    padding-top: 200px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+
+
+.subjudul{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 30em;
+}
+
+.tombol{
+    padding: 8px 12px;
+    border-radius: 2px;
+    color: #5CB85F;
+    margin-left: -12px;
+}
+
+.navbar-brand{
+    width: 100px;
+    height: 34px;
+    background: #0D28A6;
+}
+
+.nav-link{
+    margin-right: 30px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.cewek{
+    padding-top: 200px;
+    margin-left: 20px;
+}
+
+/* SEWA MOBIL SEKARANG */
+.sesi2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-top: 230px;
+}
+
+.subsemi2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.listlayanan{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;    
+
+}
+
+ul {
+    list-style-image: url('Checklist.png');
+}
+
+.flexbox2{
+    display: flex;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.flexbox2 > div {
+    padding-right: 10px;
+    vertical-align: middle;
+    margin-top: 3%;
+  }
+
+.listservis li{
+    padding-left: 3%;
+    padding-bottom: -10px;
+}
+/* SEWA MOBIL END */
+.whyus{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 120px;
+}
+
+.mengapa{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.testi{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 60px;
+    margin-top: 20px;
+}
+
+.item{
+    background-color:#F1F3FF ;
+    height: 300px;
+    width: 600px;
+    border-radius: 2%;
+    padding: 30px;
+
+}
+
+.rategambar2{
+    width: 100px;
+    height: 50px;
+    margin-top: 1em;
+    padding-top: 2em;
+}
+
+#rowgambar2{
+    margin-top: 50px;
+}
+
+.subgambar2{
+    font-size: 14px;
+}
+
+
+.containerowl{
+    margin-left: -400px;
+    margin-right: -400px;
+}
+
+
+.review{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: auto;
+}
+
+/* SEWA MOBIL SEKARANG */
+.boxsewa{
+    margin-top: 100px;
+    border-radius: 15px;
+    background-color: #0D28A6;
+    width: auto;
+    height: 326px;
+}
+
+.sewamo{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 50px;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.lorem{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+/* SEWA MOBIL SEKARANG END */
+
+.tombolsewa{
+    padding-top: 40px;
+    margin:auto;
+    margin-top: 20px;
+}
+
+
+/* 
+.faq12{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 500px;
+} */
+
+.faqjudul{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 120px;
+}
+
+#accordionExample1{
+    margin-top: 120px;
+}
+
+
+.alamat{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+.alamat1{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 100px;
+}
+
+.pelayanan{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.pelayanan1{
+    padding-top: 100px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.connect{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 100px;
+}
+
+.gambar{
+    padding-left: 20px;
+}
+
+.copyright{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+.box{
+    width: 100px;
+    height: 34px;
+    background: #0D28A6;
+    border: 0;
+}
+
+.navbar{
+    background: #F1F3FF;
+}
+
+/* Why US Kotak */
+.kotak{
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.whyus{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+.judulwhy{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.mengapa{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .flex-container > div {
+    width: 100px;
+    text-align: left;
+  }
+
+.logo1{
+    width: 32px;
+    height: 32px;
+}
+
+.gambar1{
+    background-color: #F1F3FF;;
+    width: 619px;
+    height: 270px;
+    margin-left: -390px;
+    border-radius: 12px;
+}
+.gambar2{
+    background-color: #F1F3FF;;
+    width: 619px;
+    height: 270px;
+    border-radius: 12px;
+}
+.gambar3{
+    background-color:  #F1F3FF;;
+    width: 619px;
+    height: 270px;
+    margin-left: 100px;
+    border-radius: 12px;
+}
+
+#navigasibtn{
+    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.buttonnav{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.subnamegambartesti{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.owl-prev{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% !important;
+    border-color: black !important;
+}
+
+.owl-prev:hover{
+    background: #5CB85F !important;
+    color: #FFFFFF;
+}
+
+.owl-next{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% !important;
+    border-color: black !important;
+}
+
+.owl-next:hover{
+    background: #5CB85F !important;
+    color: #FFFFFF;
+}
+
+.owl-dots{
+    visibility: hidden;
+}
+
+.box1{
+    width: 100px;
+    height: 34px;
+    background: #0D28A6;
+    margin-bottom: 60px;
+    border: 0;
+}
+
+
+
+@media (min-width: 662px) {
+    .navmobile, #nav2{
+        visibility: hidden !important;
+    }
+    
+    .owl-prev:hover{
+        background: #5CB85F !important;
+        color: #FFFFFF;
+    }
+    
+    .owl-next{
+        width: 30px;
+        height: 30px;
+        border-radius: 50% !important;
+        border-color: black !important;
+    }
+    
+    .owl-next:hover{
+        background: #5CB85F !important;
+        color: #FFFFFF;
+    }
+    
+    .owl-dots{
+        visibility: hidden;
+    }
+}
+
+
+
+
+
+@media (max-width: 661px) {
+    .judul {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-size: 2.250em;
+        width: 328px;
+        height: 216px;
+        margin-top: -3em;
+    }
+    .subjudul{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 0.8em;
+        margin-top: 200px;
+        width: auto;
+    }
+
+    .img-fluid{
+        width: 344px;
+        height: 199px;
+        margin-top: -3em;
+    }
+
+    .bgboxbiru{
+        margin-top: 3em;
+        width: auto;
+        height : 8em;
+        border-top-left-radius:4em;
+        background-color: #0D28A6;
+        margin-left: 2em;
+        margin-right: auto;
+    }
+
+    .cewek{
+        height: 500px;
+        width: 300px;
+        margin: auto;
+    }
+
+    .sesi2{
+        margin-top: -7em;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        flex: none;
+        width: auto;
+    }
+    
+    .subsemi2{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .kotak{
+        margin-top: 10px;
+    }
+
+    .containerowl{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .item{
+        background-color:#F1F3FF ;
+        height: 372px;
+        width: auto;
+        border-radius: 2%;
+        padding: 30px;
+    
+    }
+
+    .rowgambar2{
+        margin-top: 50px;
+        width: 80px;
+        width: 80px;
+        align-items: center;
+        margin-left: 60px;
+    }
+
+    .rategambar2{
+        width: 100px;
+        height: 50px;
+        margin: auto !important;
+        margin-top: -30px !important;
+    }
+
+    .subwhy{
+        font-size: 12px;
+        width: 250px;
+    }
+
+    .kotak{
+        width: auto;
+    }
+
+    .testi{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-size: 24px;
+        line-height: 36px;
+        padding-top: 60px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .containerowl{
+        margin: auto !important;
+    }
+
+    #rowgambar2{
+        margin-top: 20px;
+        width: 80px !important;
+        height: 80px !important;
+        margin:auto;
+    }
+
+
+    .item{
+        background-color:#F1F3FF ;
+        height: 400px;
+        width: auto;
+        border-radius: 2%;
+        padding: 30px;
+        margin-left: -0.2em;
+    
+    }
+
+    .subgambar2{
+        font-size: 14px;
+        margin-top: 1.5em;
+    }
+
+    .boxsewa{
+        margin-top: 80px;
+        border-radius: 15px;
+        background-color: #0D28A6;
+        width: auto;
+        height: 450px;
+        padding: 1em;
+    }
+
+
+    .sewamo{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 1.5em;
+        text-align: center;
+        padding-top: 50px;
+        color: #FFFFFF;
+    }
+    
+    .lorem{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 0.8em;
+        line-height: 1.3em;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 10px;
+        margin-left: -6em;
+        margin-right: -6em;
+    }
+
+    .tombolsewa{
+        margin-top:-20px;
+    }
+
+    #accordionExample1{
+        margin-top: 30px;
+    }
+
+    .alamat{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        
+    }
+    
+    .alamat1{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: -50px;
+    }
+
+    .pelayanan{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    
+    .pelayanan1{
+        margin-top: -90px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .connect{
+        margin-top: -90px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .copyright{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: -90px;
+        margin-bottom: 10px;
+    }
+
+
+    .box1{
+        width: 100px;
+        height: 34px;
+        background: #0D28A6;
+        margin-bottom: 60px;
+    }
+
+    .offcanvas {
+        width: 50%;
+        
+
+    }
+
+    .nav-item .nav-link{ 
+        color: black;
+    }
+
+    .navbar-brand{
+        width: 100px;
+        height: 34px;
+        background: #0D28A6;
+    }
+
+    .offcanvas{
+        max-width: 50% !important;
+    }
+
+    .offcanvas-backdrop{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1040;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000 !important;
+        opacity: 0.4;
+    }
+
+    /* NAVBAR ICON MOBILE */
+    .hamberger {
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+      }
+
+    /* END NAV ICON MOBILE */
+
+    .mengapa{
+        text-align: center;
+    }
+
+    .whyus{
+        text-align: center;
+    }
+
+    
+
+    
+}
