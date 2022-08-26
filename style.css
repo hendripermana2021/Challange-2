@@ -203,6 +203,7 @@ ul {
     background-color: #0D28A6;
     width: auto;
     height: 326px;
+    padding:0 15em 0 15em;
 }
 
 .sewamo{
@@ -237,6 +238,11 @@ ul {
     padding-top: 40px;
     margin:auto;
     margin-top: 20px;
+    text-align: center;
+}
+
+.container-fluid{
+    overflow: hidden;
 }
 
 
